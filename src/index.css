@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: url("./asset/pero-kalimero-9BJRGlqoIUk-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.weather-container{
+  width: 35rem;
+  height: 28rem;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+.inputContainer{
+  margin: 2rem;
+  background: rgba(0, 0, 0, 3.6);
+  padding: 0.5rem;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input_field{
+  width: 100%;
+  border: 0;
+  background: transparent;
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+  padding: 0.5rem;
+  outline: none;
+  padding-left: 1rem;
+}
+
+.search-icon{
+  color: white;
+  padding: 0.5rem;
+  padding-right: 2rem;
+  border-left: 1px solid rgb(85, 85, 85);
+  padding-left: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search{
+  cursor: pointer;
+}
+
+.weather_location_degree{
+  text-align: left;
+  margin-left: 2.5rem;
+  font-family: sans-serif;
+  color: white;
+  margin-top: 3rem;
+}
+
+.weather_location_degree .weather_location{
+  font-weight: 500;
+}
+
+.weather_degree{
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+.weather_discription{
+  display: flex;
+  margin-top: 3rem;
+}
+
+.weather_discription .cloud_details{
+  display: flex;
+  justify-content: space-between;
+}
+
+.cloud_icon{
+  font-size: 20px;
+}
+
+.cloud_details p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cloud_discription{
+  margin-top: 2.5rem;
+}
+
+.cloud_discription p:nth-child(2){
+  margin-top: 0.5rem;
+}
+
+.weather_discription .right_side{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  margin-left: 2rem;
+}
